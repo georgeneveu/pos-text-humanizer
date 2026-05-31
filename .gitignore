@@ -216,3 +216,51 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =====================
+# Python cache
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================
+# Virtual environments
+# =====================
+.venv/
+venv/
+env/
+
+# =====================
+# Environment variables
+# =====================
+.env
+
+# =====================
+# IDE / Editor files
+# =====================
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# Jupyter Notebook (if you add later)
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Model / cache files (HuggingFace + spaCy)
+# =====================
+.cache/
+huggingface/
+transformers_cache/
+~/.cache/huggingface/
+
+# spaCy model cache
+spacy_data/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
